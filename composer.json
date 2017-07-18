@@ -1,0 +1,23 @@
+{
+    "name": "carlosgr/image-scrapper",
+    "description": "Small Image Scrapper Script",
+    "type": "project",
+    "license": "GNU GLPv3",
+    "authors": [
+        {
+            "name": "cjgratacos",
+            "email": "cjgratacos@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "cjgratacos\\ImageScrapper\\":"src/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "echo Running Script",
+            "php init.php"
+        ]
+    }
+}
